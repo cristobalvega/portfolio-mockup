@@ -15,6 +15,18 @@ ul {
   padding: 0;
 }
 
+/* COMMON */
+.p-flex {
+  display: flex;
+}
+
+.p-flex-align-center {
+  align-items: center;
+}
+
+.p-flex-justify-sb {
+  justify-content: space-between;
+}
 
 /* Wrapper class */
 .p-wrapper {
