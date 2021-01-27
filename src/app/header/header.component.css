@@ -45,7 +45,7 @@ header ul li a {
   position: relative;
 }
 
-header ul li a:hover::after {
+header ul li a:hover::after, header ul li a.is-active::after{
   content: '';
   background: #f9b205;
   height: 9px;

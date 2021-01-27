@@ -15,11 +15,15 @@ ul {
   padding: 0;
 }
 
-a {
+a, a:hover {
   text-decoration: none;
 }
 
 /* COMMON */
+.p-cursor {
+  cursor: pointer;
+}
+
 .p-flex {
   display: flex;
 }
