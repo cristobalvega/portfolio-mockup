@@ -41,7 +41,17 @@ header ul li:last-child {
 
 header ul li a {
   color: #000000;
-  text-decoration: none;
-  background-color: transparent;
   font-weight: 500;
+  position: relative;
+}
+
+header ul li a:hover::after {
+  content: '';
+  background: #f9b205;
+  height: 9px;
+  position: absolute;
+  left: 1px;
+  z-index: -1;
+  bottom: 0;
+  right: -3px;
 }
