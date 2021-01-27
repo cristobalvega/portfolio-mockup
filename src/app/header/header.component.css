@@ -38,3 +38,10 @@ header ul li:first-child {
 header ul li:last-child {
   padding-right: 0;
 }
+
+header ul li a {
+  color: #000000;
+  text-decoration: none;
+  background-color: transparent;
+  font-weight: 500;
+}
